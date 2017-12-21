@@ -1,0 +1,2 @@
+For the summary manual to use GIT with GitHub
+
