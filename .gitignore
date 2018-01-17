@@ -1,1 +1,53 @@
 # TBD
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Maven 
+target/
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+/bower_components
+yarn.lock
+
+# IDEs and editors
+/.idea
+.settings/
+.classpath
+.project
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+
+
+
+#ignore files added by travis ci script
+google-chrome-stable_current*
+/ws/CargarDocumentoService/target/
+
+#ignore files created by Eclipse
+/.settings/
+/.project
+.project
+.settings
+.classpath
+.directory
+/.metadata/
+.recommenders
